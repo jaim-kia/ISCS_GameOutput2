@@ -1,8 +1,9 @@
-[gd_scene load_steps=14 format=3 uid="uid://b5jrqap6e2gql"]
+[gd_scene load_steps=15 format=3 uid="uid://b5jrqap6e2gql"]
 
 [ext_resource type="PackedScene" uid="uid://cqibf6m4f1qi8" path="res://scenes/player.tscn" id="1_12om3"]
 [ext_resource type="Script" path="res://scenes/game_manager.gd" id="1_htscs"]
 [ext_resource type="Texture2D" uid="uid://dlrr56owjm5de" path="res://assets/sprites/world_tileset.png" id="2_hdeab"]
+[ext_resource type="Script" path="res://scenes/ScoreLabel.gd" id="3_fdfr5"]
 [ext_resource type="PackedScene" uid="uid://bgyde33cayt07" path="res://scenes/platform.tscn" id="3_ttifk"]
 [ext_resource type="PackedScene" uid="uid://cutvthiakiaqs" path="res://scenes/coin.tscn" id="4_314j0"]
 [ext_resource type="PackedScene" uid="uid://bop6y2j22pd6" path="res://scenes/killzone.tscn" id="5_1qdvp"]
@@ -464,10 +465,11 @@ offset_top = -43.0
 offset_right = 397.0
 offset_bottom = -32.0
 scale = Vector2(0.995833, 1)
-theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_color = Color(0.0392157, 0.0392157, 0.0392157, 1)
 theme_override_fonts/font = ExtResource("6_72jim")
 theme_override_font_sizes/font_size = 8
 text = "coins: "
+script = ExtResource("3_fdfr5")
 
 [node name="TileMap" type="TileMap" parent="."]
 tile_set = SubResource("TileSet_kf4fc")
