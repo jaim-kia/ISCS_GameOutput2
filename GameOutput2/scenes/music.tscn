@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://6ac50vwwfric"]
+
+[ext_resource type="AudioStream" uid="uid://qbs88lna5qkg" path="res://assets/music/HeatleyBros - 8 Bit Spring.mp3" id="1_mtmil"]
+
+[node name="Music" type="AudioStreamPlayer2D"]
+stream = ExtResource("1_mtmil")
+autoplay = true
+bus = &"Music"
