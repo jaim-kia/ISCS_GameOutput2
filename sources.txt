@@ -1,0 +1,7 @@
+* General platformer (movement, physics, some assets, sfx) - Brackeys - https://www.youtube.com/watch?v=LOhfqjmasi0
+** some assets were adjusted to fit the student's preference
+* Music - 8 bit Spring - Heatley Bros - https://www.youtube.com/@HeatleyBros
+* Spring platformer idea (adjusted for one way and instantiation) - Jean Makes Games - https://www.youtube.com/watch?v=hKXHYYj4v8Q
+* Canvas Layer - GODOT Docs - https://docs.godotengine.org/en/stable/classes/class_canvaslayer.html
+* Margin Container - GODOT Docs - https://docs.godotengine.org/en/stable/classes/class_margincontainer.html
+* Exporting EXE - GWizz - https://www.youtube.com/watch?v=31W2ti676RE
