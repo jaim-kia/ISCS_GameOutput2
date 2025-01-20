@@ -1,11 +1,10 @@
 extends Area2D
-
+@onready var player = $"../Player"
 @onready var timer = $Timer
 
+
 func _on_body_entered(body):
-	print("deadge")
 	timer.start()
 	
-
 func _on_timer_timeout():
-	get_tree().reload_current_scene()
+	player.death()
